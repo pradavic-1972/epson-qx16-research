@@ -5,7 +5,7 @@ While bringing up an Epson **QX-16** system using an original **Q702A monochrome
 
 This document records the **correct, verified wiring** required to obtain a visible image.
 
-![Q702A using Intendity Pin as Video Signal](/photos/20260206_204232.jpg)
+![Q702A using Intendity Pin as Video Signal](/photos/20260206_204232.jpg){width=300 height=300}
 
 ---
 
