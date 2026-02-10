@@ -96,7 +96,7 @@ To avoid modifying the motherboard, **BH3-96P crimp housings** were used. These 
 
 No soldering was performed on the motherboard.
 
-[PSU Connector detail](/photos/ps-connector.jpg)
+
 
 ---
 
@@ -141,6 +141,7 @@ The **PWD (Power Failure Detect)** pin is tied to **ground**, matching the expec
 - All crimps were mechanically verified and continuity-checked
 
 The attached photo in the repository shows the completed BH3-96P connector installed on the motherboard.
+[PSU Connector detail](/photos/ps-connector.jpg)
 
 ---
 
@@ -172,6 +173,7 @@ This modification:
 - Improves long-term reliability  
 
 The original PSU can be restored separately while keeping the system usable and electrically safe.
+[PSU detail](/photos/ps-mount.jpg)
 
 ---
 
