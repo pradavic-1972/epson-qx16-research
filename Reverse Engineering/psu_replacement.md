@@ -96,6 +96,7 @@ To avoid modifying the motherboard, **BH3-96P crimp housings** were used. These 
 
 No soldering was performed on the motherboard.
 
+[PSU Connector detail](photos/ps-connector.jpg)
 ---
 
 ## Mean Well RPT-60B Outputs
