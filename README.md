@@ -30,7 +30,7 @@ This archive aims to:
 
 ### ✅ Experiments
 - **RAM Expansion** up to 1MB using Raspberry Pi Pico
-- **PSU Replacement** using modern switching supplies
+- [**PSU Replacement**](/Reverse%20Engineering/psu_replacement.md) using modern switching supplies
 - **Custom VGA Output** interfaced via GPIO (Pico-based)
 
 ---
