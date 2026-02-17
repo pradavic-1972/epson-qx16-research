@@ -7,8 +7,6 @@
 
 ![Keyboard Power Circuit (SVG)](qx16_keyboard_power_switch.svg)
 
-> Tip: Place the SVG in `images/` so GitHub renders it crisply at any zoom level.
-
 ---
 
 ## 📷 C18 Capacitor (Failed Component)
