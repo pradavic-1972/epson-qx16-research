@@ -37,7 +37,7 @@ This archive aims to:
 - **Custom VGA Output** interfaced via GPIO (Pico-based)
 
 ### ✅ Documentation
-- **QX16 Technical Documentation**(documentation/Epson%20QX-16%20Technical%20Manual.pdf)
+- [**QX16 Technical Documentation**](documentation/Epson%20QX-16%20Technical%20Manual.pdf)
 
 ---
 
