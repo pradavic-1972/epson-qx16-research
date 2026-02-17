@@ -134,11 +134,3 @@ After replacement:
 - Consider adding inline protection (fuse/PTC) to protect Q4 from future shorts.
 
 ---
-
-## Repository Image Placement
-
-```
-/docs/qx16_keyboard_power_repair_with_svg.md
-/images/qx16_keyboard_power_switch.svg
-/images/qx16_c18_tantalum.jpg
-```
