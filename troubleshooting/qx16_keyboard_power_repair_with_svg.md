@@ -5,7 +5,7 @@
 
 ## 📷 Original Circuit Diagram (Vector)
 
-![Keyboard Power Circuit (SVG)](images/qx16_keyboard_power_switch.svg)
+![Keyboard Power Circuit (SVG)](qx16_keyboard_power_switch.svg)
 
 > Tip: Place the SVG in `images/` so GitHub renders it crisply at any zoom level.
 
