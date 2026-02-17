@@ -24,6 +24,9 @@ This archive aims to:
 ### ✅ ROM Dumps
 - `system_rom_high.bin` and `system_rom_low.bin` – Original QX-11 MS-DOS 2.11 ROM
 
+### ✅ Repairs
+ - [**Keyboard power issues**](/troubleshooting/qx16%20keyboard%20power%20repair%20with%20svg.md) 
+
 ### ✅ Reverse Engineering
 - GAFDDC to uPD765 FDC signal mapping
 - DRAM bank emulation and memory upgrades
