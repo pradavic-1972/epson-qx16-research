@@ -36,6 +36,9 @@ This archive aims to:
 - [**PSU Replacement**](/Reverse%20Engineering/psu_replacement.md) using modern switching supplies
 - **Custom VGA Output** interfaced via GPIO (Pico-based)
 
+### ✅ Documentation
+- **QX16 Technical Documentation**(documentation/Epson%20QX-16%20Technical%20Manual.pdf)
+
 ---
 
 ## 📷 Gallery
