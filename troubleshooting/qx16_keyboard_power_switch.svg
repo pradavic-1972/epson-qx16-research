@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <style type="text/css"><![CDATA[
+      .w { stroke:#000; stroke-width:4; fill:none; }
+      .t { font-family: Arial, Helvetica, sans-serif; font-size:24px; fill:#000; }
+      .ts { font-family: Arial, Helvetica, sans-serif; font-size:20px; fill:#000; }
+      .tb { font-family: Arial, Helvetica, sans-serif; font-size:26px; font-weight:bold; fill:#000; }
+      .node { fill:#000; }
+    ]]></style>
+  </defs>
+
+  <!-- Title -->
+  <text x="40" y="50" class="tb">QX-16 Keyboard +12V Switch (Q4) and Decoupling (C18)</text>
+
+  <!-- +12V rail -->
+  <line x1="120" y1="120" x2="1080" y2="120" class="w"/>
+  <text x="60" y="128" class="t">+12V</text>
+
+  <!-- Q4 PNP high-side switch (simplified) -->
+  <!-- Emitter connection -->
+  <circle cx="520" cy="120" r="6" class="node"/>
+  <line x1="520" y1="120" x2="520" y2="200" class="w"/>
+  <text x="535" y="165" class="ts">E</text>
+
+  <!-- Transistor body -->
+  <circle cx="520" cy="260" r="60" class="w"/>
+  <text x="488" y="270" class="tb">Q4</text>
+  <text x="458" y="300" class="ts">PNP (2SA1243 / B1243)</text>
+
+  <!-- Collector output -->
+  <line x1="520" y1="320" x2="520" y2="420" class="w"/>
+  <circle cx="520" cy="420" r="6" class="node"/>
+  <text x="535" y="410" class="ts">C</text>
+
+  <!-- Base node -->
+  <line x1="460" y1="260" x2="360" y2="260" class="w"/>
+  <circle cx="360" cy="260" r="6" class="node"/>
+  <text x="330" y="250" class="ts">B</text>
+
+  <!-- R52 pull-up from +12 to base -->
+  <line x1="360" y1="120" x2="360" y2="170" class="w"/>
+  <rect x="330" y="170" width="60" height="80" fill="#fff" stroke="#000" stroke-width="4"/>
+  <text x="342" y="215" class="ts">R52</text>
+  <text x="338" y="242" class="ts">680Ω</text>
+  <line x1="360" y1="250" x2="360" y2="260" class="w"/>
+  <circle cx="360" cy="120" r="6" class="node"/>
+
+  <!-- R2 from base node to 7406 output -->
+  <line x1="360" y1="260" x2="260" y2="260" class="w"/>
+  <rect x="200" y="230" width="60" height="60" fill="#fff" stroke="#000" stroke-width="4"/>
+  <text x="214" y="262" class="ts">R2</text>
+  <text x="206" y="288" class="ts">1kΩ</text>
+  <line x1="200" y1="260" x2="140" y2="260" class="w"/>
+  <circle cx="140" cy="260" r="6" class="node"/>
+
+  <!-- 7406 open collector output -->
+  <rect x="40" y="220" width="90" height="80" fill="#fff" stroke="#000" stroke-width="4"/>
+  <text x="56" y="255" class="ts">7406</text>
+  <text x="56" y="282" class="ts">OC out</text>
+  <line x1="130" y1="260" x2="140" y2="260" class="w"/>
+  <text x="40" y="210" class="ts">IC1C pin 6</text>
+
+  <!-- Ground symbol -->
+  <line x1="85" y1="300" x2="85" y2="350" class="w"/>
+  <line x1="55" y1="350" x2="115" y2="350" class="w"/>
+  <line x1="62" y1="370" x2="108" y2="370" class="w"/>
+  <line x1="70" y1="390" x2="100" y2="390" class="w"/>
+  <text x="40" y="430" class="ts">GND</text>
+
+  <!-- Collector node to keyboard connector -->
+  <line x1="520" y1="420" x2="900" y2="420" class="w"/>
+  <rect x="900" y="380" width="240" height="80" fill="#fff" stroke="#000" stroke-width="4"/>
+  <text x="920" y="420" class="ts">Keyboard connector</text>
+  <text x="920" y="448" class="ts">+12V rail to keyboard</text>
+
+  <!-- C18 decoupling capacitor from rail to ground -->
+  <line x1="650" y1="420" x2="650" y2="480" class="w"/>
+  <line x1="620" y1="480" x2="680" y2="480" class="w"/>
+  <line x1="620" y1="500" x2="680" y2="500" class="w"/>
+  <line x1="650" y1="500" x2="650" y2="560" class="w"/>
+  <text x="690" y="495" class="ts">C18</text>
+  <text x="690" y="525" class="ts">15µF/35V (orig tantalum)</text>
+  <text x="690" y="555" class="ts">22µF electrolytic (replacement)</text>
+
+  <!-- Ground symbol under capacitor -->
+  <line x1="650" y1="560" x2="650" y2="600" class="w"/>
+  <line x1="620" y1="600" x2="680" y2="600" class="w"/>
+  <line x1="627" y1="620" x2="673" y2="620" class="w"/>
+  <line x1="635" y1="640" x2="665" y2="640" class="w"/>
+
+  <!-- Notes -->
+  <text x="40" y="520" class="ts">Operation:</text>
+  <text x="40" y="550" class="ts">• 7406 sinks base → Q4 turns ON → +12V reaches keyboard rail.</text>
+  <text x="40" y="580" class="ts">• RESET momentarily turns Q4 OFF → keyboard power-cycles for a clean soft reset.</text>
+  <text x="40" y="610" class="ts">Common failure: C18 tantalum shorts → keyboard rail clamps to GND → Q4 overheats and fails.</text>
+</svg>
