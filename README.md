@@ -22,7 +22,7 @@ This archive aims to:
 ## 🛠️ Current Highlights
 
 ### ✅ ROM Dumps
-- `system_rom_high.bin` and `system_rom_low.bin` – Original QX-11 MS-DOS 2.11 ROM
+- `IPL Rom, Z/80 ROM and 8088 ROM`
 
 ### ✅ Repairs
  - [**Keyboard power issues**](/troubleshooting/qx16_keyboard_power_repair_with_svg.md) 
