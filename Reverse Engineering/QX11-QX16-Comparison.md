@@ -196,12 +196,14 @@ subgraph QX11["VENUS"]
     INT70 --> INT71["Timer"]
     INT70 --> INT74["FDC"]
     INT70 --> INT75["Keyboard"]
+    INT70 --> INT7A["RTC"]
 end
 
 subgraph QX16["APOLLO"]
     INT70A --> INT71A["Timer"]
     INT70A --> INT74A["Keyboard"]
     INT70A --> INT76A["FDC"]
+    INT70B --> INT7A["RTC"]
 end
 ```
 
@@ -215,6 +217,7 @@ end
 | Timer | INT 71h | INT 71h |
 | Keyboard | INT 75h | INT 74h |
 | FDC | INT 74h | INT 76h |
+| RTC | INT 7Ah | INT 7Ah |
 
 ---
 
