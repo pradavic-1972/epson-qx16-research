@@ -203,7 +203,7 @@ subgraph QX16["APOLLO"]
     INT70A --> INT71A["Timer"]
     INT70A --> INT74A["Keyboard"]
     INT70A --> INT76A["FDC"]
-    INT70B --> INT7A["RTC"]
+    INT70A --> INT7AA["RTC"]
 end
 ```
 
