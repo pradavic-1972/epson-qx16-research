@@ -19,6 +19,12 @@ This archive aims to:
 
 ---
 
+## Connected documentation
+
+- [EPSP read-only serial block driver](software/EPSP/README.md)
+- [Interrupt model](Reverse%20Engineering/Epson_interrupt_model.md) and [INT 71h timer](Reverse%20Engineering/INT_71_Timer.md)
+- [ICRT / VMM6 video research](Reverse%20Engineering/ICRT_VMM6.md)
+
 ## 🛠️ Current Highlights
 
 ### ✅ ROM Dumps
@@ -54,13 +60,15 @@ See `/photos/` for high-res images of:
 ## 📚 Related Systems
 
 This work relates to:
-- Epson QC/X-10 and QC/X-11
+- [QX-11 companion archive](https://github.com/pradavic-1972/epson-qx11-research)
+- [QX-11 / QX-16 architecture comparison](Reverse%20Engineering/QX11-QX16-Comparison.md)
+- [Cross-reference guide](CROSS_REFERENCES.md)
 - NEC µPD765 floppy controllers
 ---
 
 ## 📄 License
 
-- 🧩 All **code** (scripts, tools, KiCad files) is licensed under the [MIT License](LICENSE).
+- 🧩 All **code** (scripts, tools, KiCad files) is licensed under the MIT License.
 - 📸 All **images**, **ROM dumps**, **text documentation**, and **diagrams** are licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license.
 
 Please credit this repository when reusing content.
@@ -86,4 +94,4 @@ ROM dumps and photos are shared for **educational and preservation purposes only
 
 - [Retrocomputing Wiki](https://wiki.retrocomputing.net/)
 - [Datasheet: uPD765AC](https://archive.org/details/nec-upd765-datasheet)
-- [GAFDDC Analysis (WIP)](LINK_TO_YOUR_WRITEUP_HERE)
+- [QX-11 gate-array analysis (comparative reference)](https://github.com/pradavic-1972/epson-qx11-research/blob/main/Reverse%20Engineering/gate-arrays.md)

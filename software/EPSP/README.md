@@ -167,3 +167,7 @@ The QX-16 block driver was then developed and debugged with ChatGPT, using real 
 - Serial speed currently fixed to the proven ~62,400 baud configuration.
 - Runtime disconnect/reconnect handling is still beta.
 
+
+## Related research
+
+[Cross-platform topic guide](../../CROSS_REFERENCES.md) · [QX-11 archive](https://github.com/pradavic-1972/epson-qx11-research)
