@@ -257,3 +257,7 @@ Understanding this distinction is essential for:
 - Emulation (MAME)
 - BIOS reverse engineering
 - Hardware interfacing
+
+## Related research
+
+[Cross-platform topic guide](../CROSS_REFERENCES.md) · [QX-11 archive](https://github.com/pradavic-1972/epson-qx11-research)
